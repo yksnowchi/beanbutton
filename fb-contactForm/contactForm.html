@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<style type="text/css">
+  	body {
+    font-family:Arial;
+    font-size:12px;
+    }
+    
+    #form_wrapper{
+   	border: medium none;
+    color: inherit;
+    float: none;
+    margin: 0;
+    padding: 0;
+    position: static;
+
+    }
+    
+    .input_wrap{
+   	padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+    input.text{
+    background-color: #FFFFFF;
+    border-color: #787878;
+    border-style: solid;
+    border-width: 1px;
+    color: #5E5E5E;
+    font-family: Verdana,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+	}
+	
+	.label_name{
+	color: #096BA8;
+    display: block;
+    float: none;
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    width: auto;
+   }
+
+  </style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Form</title>
+</head>
+
+<body>
+<form id="form_wrapper" action="contact.php" method="post">
+	<div class="input_wrap">
+	<label class="label_name"> Name</label><br>
+	<input id="fb_name" type="text" name="cf_name"><br><br>
+ 	</div>
+ 	<div class="input_wrap">
+	<label class="label_name">E-mail</label><br>
+    <input type="text" name="cf_email"><br><br>
+	</div>
+	<input type="submit" value="Send">
+	<input type="reset" value="Clear">
+</form>
+</body>
+</html>
+
+
+
